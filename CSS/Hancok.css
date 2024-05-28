@@ -1,0 +1,1130 @@
+.container {
+    max-width: 1320px;
+    position: relative;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #121212;
+}
+
+/* ======================== navbar css start============================== */
+nav {
+    position: absolute !important;
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-item a:hover {
+    color: #DDDDDD !important;
+}
+
+.top_right {
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.navbar_right {
+    color: #FFFFFF;
+}
+
+/* ======================== navbar css end============================== */
+/* ======================== banner css start============================== */
+#banner {
+    background: url(../Imeges/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 337px;
+    padding-bottom: 103px;
+}
+
+.text_area h4 {
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+}
+
+.text_area h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+
+.text_area h1::after {
+    content: '';
+    width: 90px;
+    height: 4px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    right: -110px;
+}
+
+.text_area p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 523px;
+    margin-top: 5px;
+}
+
+.text_area a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    background: #FFFFFF;
+    padding: 13px 24px;
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.text_area a:hover {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.text_area .banner_icon {
+    margin-left: 7px;
+}
+
+#banner ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#banner ul li {
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+}
+
+#banner ul li {
+    color: #000000;
+}
+
+.banner_list_icon {
+    margin-top: 301px;
+}
+
+/* ======================== banner css end============================== */
+/* ======================== about css start============================== */
+#about {
+    padding-top: 30px;
+    padding-bottom: 82px;
+}
+
+#about .title h3 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#about .title h3::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    left: 218px;
+}
+
+.about_middle {
+    margin-top: 57px;
+}
+
+.about_text_area h2 {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.81px;
+    color: #FFFFFF;
+}
+
+.about_text_area ul li i {
+    color: #FF4655;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.about_text_area ul {
+    padding: 0;
+}
+
+.about_text_area ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.about_text_area p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 13px;
+    width: 468px;
+}
+
+.about_text_area a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #212121;
+    padding: 13px 24px;
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.about_text_area a:hover {
+    background: #FFFFFF;
+    color: #121212;
+    border: 1px solid #121212;
+}
+
+.about_item {
+    padding: 26px 90px 27px 100px;
+    background: #212121;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 0px 50px;
+}
+
+.about_item h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    position: relative;
+}
+
+.about_item h4::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #FF4655;
+    border-radius: 50%;
+    bottom: 11px;
+    right: -10px;
+    position: absolute;
+}
+
+.about_item h6 {
+    width: 141px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+}
+
+.first_item {
+    margin-left: 7px;
+}
+
+.about_bottom {
+    margin-top: 50px;
+}
+
+/* ======================== about css end============================== */
+/* ======================== world css start============================== */
+#world {
+    padding-top: 90px;
+    background: #212121;
+}
+
+#world .world_title h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 2.6px;
+    position: relative;
+}
+
+#world .world_title h3::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7px;
+    right: 115px;
+}
+
+.world_title {
+    margin-bottom: 80px;
+}
+
+.world_right_img {
+    position: absolute;
+    top: -205px;
+    left: 0;
+}
+
+.world_left {
+    position: relative;
+}
+
+.slick-list {
+    height: 500px;
+}
+
+.slide_item {
+    margin-top: 100px;
+}
+
+.right_icon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
+
+.right_icon:hover {
+    background: #FFFFFF;
+    color: #121212;
+    border: 1px solid #FFFFFF;
+}
+
+.left_icon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    z-index: 999;
+}
+
+.left_icon:hover {
+    background: #FFFFFF;
+    color: #121212;
+    border: 1px solid #FFFFFF;
+}
+
+.slick-slider {
+    top: -100px;
+}
+
+/* ======================== world css end============================== */
+/* ======================== streamin css start============================== */
+#STREAMIN {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+#STREAMIN .title h3 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    width: 446px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 67px;
+}
+
+#STREAMIN .title h3::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    right: 175px;
+}
+
+#STREAMIN .item .item_middle {
+    height: 274.46px;
+    width: 100%;
+}
+
+#STREAMIN .item {
+    transform: scale(1);
+    filter: grayscale(100%);
+    transition: 0.4s ease-in-out;
+}
+
+#STREAMIN .item:hover {
+    transform: scale(1.09);
+    z-index: 2;
+    filter: grayscale(0%);
+}
+
+.item_play_icon {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+#STREAMIN .item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#STREAMIN .item_play_box {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#STREAMIN .item_text_area h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#STREAMIN .item_text_area h5 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+#STREAMIN .item_text_area h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#STREAMIN .item_text_area h4::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #FF4655;
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    border-radius: 50%;
+}
+
+#STREAMIN .item_text_area {
+    position: absolute;
+    bottom: 23px;
+    width: 100%;
+    padding: 0px 25px;
+}
+
+.matches .matches_text {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2.25px;
+    margin-bottom: 49px;
+}
+
+.matches_item {
+    margin-top: 58px;
+}
+
+.item_matches {
+    background: #212121;
+    width: 100%;
+    height: 118px;
+    clip-path: polygon(1% 0, 100% 0, 88% 100%, 0% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_matches_right {
+    background: #212121;
+    width: 100%;
+    height: 118px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.matches_text_item {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0.96px;
+    margin-right: 61px;
+}
+
+.matches_text_right {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0.96px;
+    margin-left: 61px;
+}
+
+.matches_time {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+/* ======================== streamin css end============================== */
+/* ======================== sale css start============================== */
+#SALE {
+    padding-bottom: 90px;
+    background: #212529;
+    padding-top: 90px;
+}
+
+#SALE .sale_title h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 2.6px;
+    position: relative;
+    margin-bottom: 47px;
+}
+
+#SALE .sale_title h3::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7px;
+    right: 90px;
+}
+
+#SALE .sale_text h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.sale_text h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.sale_text_item {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.sale_percent h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    background: #FF4655;
+}
+
+.sale_text_item s {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    letter-spacing: 0.96px;
+}
+
+.sale_dollar h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.sale_icon {
+    color: #FFFFFF;
+    background: #212121;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    right: 4px;
+}
+
+.sale_icon:hover {
+    background: #FF4655;
+    border: 1px solid #212121;
+    color: #212121;
+}
+
+.sale_img {
+    position: relative;
+}
+
+.sale_text_bottom {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.sale_bottom_text {
+    padding-left: 44px;
+}
+
+.sale_bottom_text h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4655;
+    letter-spacing: 1.6px;
+    margin-top: 3px;
+}
+
+.sale_bottom_text h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 580px;
+    margin-top: 15px;
+}
+
+.sale_bottom_text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    width: 603px;
+    margin-top: 16px;
+}
+
+.sale_bottom_text a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 13px 31px;
+    background: #121212;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+.sale_bottom_text a:hover {
+    color: #121212;
+    background: #FFFFFF;
+}
+
+.sale_bottom {
+    display: flex;
+    justify-content: space-between;
+    background: #212121;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-right: 111px;
+}
+
+/* ======================== sale css end============================== */
+/* ======================== gaming css start============================== */
+#GAMING {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.gaming_title h3 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    width: 446px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.gaming_title h3::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    right: 105px;
+}
+
+.gaming_item {
+    margin-top: 102px;
+    background: #212121;
+}
+
+.gaming_item h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    margin-left: 121px;
+    padding-top: 22px;
+}
+
+.gaming_item img {
+    margin-left: 38px;
+    margin-top: 7px;
+    width: 240px;
+    height: 240px;
+}
+
+.gaming_item h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 66px;
+    margin-top: 45px;
+}
+
+.gaming_item h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF4655;
+    margin-left: 115px;
+    margin-top: 7px;
+    padding-bottom: 24px;
+}
+
+.icons_left {
+    color: #FFFFFF;
+    border: 1px solid #121212;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #FF4655;
+    position: absolute;
+    top: 300px;
+    left: -25px;
+}
+
+.icons_left:hover {
+    color: #121212;
+    border: 1px solid #121212;
+    background: #FFFFFF;
+}
+
+.icons_right {
+    color: #FFFFFF;
+    border: 1px solid #121212;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #FF4655;
+    position: absolute;
+    top: 300px;
+    right: -25px;
+}
+
+.icons_right:hover {
+    color: #121212;
+    border: 1px solid #121212;
+    background: #FFFFFF;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+/* ======================== gaming css end============================== */
+/* ======================== team css start============================== */
+#TEAM {
+    padding-top: 100px;
+    background: #212121;
+    padding-bottom: 100px;
+}
+
+#TEAM .team_title h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 2.6px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#TEAM .team_title h3::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7px;
+    right: 90px;
+}
+
+.team_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.overly {
+    height: 70px;
+    width: 100%;
+    background: rgba(37, 36, 36, 0.29);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 24px 10px;
+
+}
+.team_item:hover .overly{
+    height: 190px;
+    transition: 0.4s;
+}
+.overly h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.overly p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 300px;
+    margin-top: 6px;
+    
+}
+
+.overly a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 300px;
+    text-decoration: none;
+    padding: 4px 20px;
+    background: #FF4655;
+    margin-top: 20px;
+    
+}
+
+.team_icon i {
+    width: 35px;
+    height: 35px;
+    background: #FF4655;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team_icon {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.team_text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team_text_item {
+    padding-left: 30px;
+    padding-right: 58px;
+}
+
+.team_item:hover a {
+    display: inline;
+}
+
+.team_item:hover .team_icon {
+    display: inline;
+}
+
+.team_item:hover p {
+    display: inline-block;
+}
+
+.team_item {
+    filter: grayscale(100%);
+
+}
+
+.team_item:hover {
+    filter: grayscale(0%);
+}
+/* ======================== team css end============================== */
+/* ======================== question css start============================== */
+#QUESTION {
+    padding-top: 55px;
+    padding-bottom: 200px;
+}
+
+.question_title h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    width: 590px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 92px;
+}
+
+.question_title h3::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    right: 105px;
+}
+
+.question_item {
+    display: flex;
+    gap: 42px;
+}
+
+.question_number {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    color: #FFFFFF;
+    border: 1px solid #121212;
+    width: 70px;
+    height: 70px;
+    background: #FF4655;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.question_text h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FF4655;
+    transition: 0.4s;
+}
+
+.question_text h6:hover {
+    color: #FFFFFF;
+}
+
+.question_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    width: 427px;
+}
+
+.question_border {
+    border-bottom: 1px solid #666666;
+}
+
+.border_item {
+    border-left: 1px solid #666666;
+}
+
+.question_item-bottom {
+    padding-top: 76px;
+}
+
+.question_item-top {
+    padding-bottom: 76px;
+}
+
+/* ======================== question css end============================== */
+/* ======================== footer css start============================== */
+#footer {
+    background: #191919;
+    padding-top: 112px;
+    padding-bottom: 70px;
+}
+
+.footer_top {
+    width: 1320px;
+    height: 165px;
+    background: #FF4655;
+    border: 1px solid #FF4655;
+    padding-top: 35px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: 444px;
+    right: -1px;
+}
+
+.footer_top_left h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 725px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    width: 425px;
+    margin-top: 30px;
+    margin-bottom: 59px;
+}
+
+.footer_icon ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_icon ul li {
+    list-style: none;
+    color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    background: #212529;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    transition: .4s;
+}
+
+.footer_icon ul li:hover {
+    background: #FF4655;
+}
+
+.footer_miidle h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    letter-spacing: 1.75px;
+}
+
+.footer_miidle ul {
+    padding: 0;
+}
+
+.footer_miidle ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    list-style: none;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+.footer_miidle ul li:hover {
+    color: #FF4655;
+}
+
+.footer_right h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    letter-spacing: 1.75px;
+    margin-bottom: 30px;
+}
+
+.footer_search {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    position: relative;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 207px;
+
+}
+
+.footer_button {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #191919;
+    padding: 11px 28px;
+    border-radius: 30px;
+    position: absolute;
+    right: 33px;
+}
+
+.footer_top_right {
+    margin-top: 30px;
+}
+
+.footer_item {
+    padding-bottom: 70px;
+}
+
+.footer_end h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer_end h6 span {
+    color: #FF4655;
+}
+
+.footer_border {
+    border: 1px solid #666666;
+}
+
+/* ======================== footer css end============================== */

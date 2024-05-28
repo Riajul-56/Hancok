@@ -1,0 +1,61 @@
+@media (min-width:320px) and (max-width:570px) {
+    .nav_main{
+        background: #FF4655;
+    }
+    nav{
+        z-index: 999;
+    }
+    .navbar_right {
+        padding-left: 30px;
+    }
+    #banner { 
+        padding-top: 150px;
+    }
+    .text_area p {
+        width: 351px;
+    }
+    .banner_list_icon {
+        margin-top: 75px;
+    }
+    .text_area h1::after {
+       display: none;
+    }
+    #about .title h3 {
+        font-size: 22px;
+    }
+    #about .title h3::after {
+       display: none;
+    }
+    .first_img img{
+        width: 100%;
+    }
+    .about_text_area h2 {
+        margin-top: 40px;
+    }
+    .about_text_area p {
+        width: 321px;
+    }
+    .about_bottom {
+        gap: 20px;
+    }
+    #STREAMIN .title h3 {
+        font-size: 20px;
+    }
+    #STREAMIN .title h3::after {
+       display: none;
+    }
+    .item_matches {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .sale_bottom_text h2 {
+        font-size: 16px;
+    }
+    .sale_bottom_text p {
+        font-size: 16px;
+        width: 313px;
+     
+    }
+    #TEAM .team_title h3 {
+        font-size: 19px;
+    }
+}
